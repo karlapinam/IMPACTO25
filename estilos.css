@@ -1,3 +1,4 @@
+
 .logo { border: 1px solid none;;
     height: 150px;
     width: 100%;
@@ -29,7 +30,6 @@ body {
     background-color: rgba(255, 255, 255, 0.685);
     display: flex;
     flex-direction: column;
-    
     align-items: center
 }
 .tucloset{ border: 1px solid none;
@@ -40,22 +40,19 @@ body {
     
     align-items: center
 }
-.tops { border: 1px solid none;
+.tops, .bottoms, .zapatos { border: 1px solid green;
     height:200px;
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-items: center;
 }
-
-.bottoms{ border: 1px solid none;;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-items: center;
-}
-.basicbottom {
+.basicbottom{
     height: 80%;
     width:50%;
+}
+.basiczapato {
+    height: 150px;
+    width: 150px;
 }
 
 
@@ -64,8 +61,8 @@ body {
     height: 200px;
     width: 80%;
     display: flex;
-    justify-items: center;
-    
+    justify-content: space-around;
+    align-items: center
 
 }
 .chamarras{ border: 1px solid none;
@@ -87,14 +84,6 @@ body {
    justify-content: center;
    align-items: center
 }
-.zapatos{ border: 1px solid none;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-items: center
-
-
-}
 
 .botonaleatorio{ border: 1px solid none;
     height: 50px;
@@ -103,4 +92,12 @@ body {
    
     justify-content: space-around
     
+}
+
+.colortop, .colorbottom, .colorzapatos{
+    height: 20px;
+width: 20px;
+}
+
+.topcolor { border: solid 1px black;
 }
