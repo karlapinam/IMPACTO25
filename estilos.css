@@ -1,3 +1,5 @@
+body {background-color: white}
+
 .logo { border: 1px solid none;;
     height: 150px;
     width: 100%;
@@ -5,14 +7,28 @@
     justify-content: center
 }
 
-.logopng {
+.logopng { 
     height: 200px;
     width: 300px;
 }
-.carrusel{ border: 1px solid none;
-    height: 50%;
-    width: 50%;
-}
+.foto {
+    width: 1250px;
+    height: 350px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+ }
+ .foto > .crop {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+ }
+
 .carrusel0{ border: 1px solid none;
     background-color: rgb(204, 204, 204);
     height: 20%;
@@ -60,6 +76,8 @@ body {
 
 .top2, .zapatos2,.bottoms2    {
      border: 1px solid  gray;
+     border-radius: 5px;
+     background-color: white;
     height: 200px;
     width: 80%;
     display: flex;
@@ -68,6 +86,8 @@ body {
 }
 .bottoms2    {
     border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
    height: 200px;
    width: 80%;
    display: flex;
