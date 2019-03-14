@@ -1,4 +1,5 @@
-body {background-color: white}
+body {background-color: white;
+margin: 0}
 
 .logo { border: 1px solid none;;
     height: 150px;
@@ -8,8 +9,9 @@ body {background-color: white}
 }
 
 .logopng { 
-    height: 200px;
-    width: 300px;
+    padding-top:80px;
+    height: 150px;
+    width: 400px;
 }
 .foto {
     width: 1250px;
@@ -32,7 +34,7 @@ body {background-color: white}
 .carrusel0{ border: 1px solid none;
     background-color: rgb(204, 204, 204);
     height: 20%;
-    width: 100%;
+    width: 110%;
     display: flex;
     justify-content: center
 }
