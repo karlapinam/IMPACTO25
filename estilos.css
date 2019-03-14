@@ -1,4 +1,3 @@
-
 .logo { border: 1px solid none;;
     height: 150px;
     width: 100%;
@@ -25,6 +24,16 @@
     height: 150px;
     width: 150px;
 }
+.basicbottom{
+    height: 80%;
+    width:50%;
+    display: flex;
+    justify-content: end
+}
+.basiczapato {border: 1px solid none;
+    height: 200px;
+    width: 150px
+}
 
 body {
     background-color: rgba(255, 255, 255, 0.685);
@@ -40,40 +49,40 @@ body {
     
     align-items: center
 }
-.tops, .bottoms, .zapatos { border: 1px solid green;
+.tops, .bottoms, .zapatos { border: 1px solid none  ;
     height:200px;
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-items: center;
 }
-.basicbottom{
-    height: 80%;
-    width:50%;
-}
-.basiczapato {
-    height: 150px;
-    width: 150px;
-}
 
 
-.bottoms2, .top2, .chamarras2, .zapatos2 {
-     border: 1px solid black;
+
+.top2, .zapatos2,.bottoms2    {
+     border: 1px solid  gray;
     height: 200px;
     width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center
+}
+.bottoms2    {
+    border: 1px solid gray;
+   height: 200px;
+   width: 80%;
+   display: flex;
+   justify-content: space-around
+   
+}
+
+.bottomcolor {border: 1px solid none;
+    height: 50px;
+   width: 250px;
 
 }
-.chamarras{ border: 1px solid none;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-items: center
-}
 
 
-.chamarras1, .top1, .bottoms1, .zapatos1  { border: 1px solid rgb(184, 181, 181);; background-color: rgb(199, 199, 199);
+ .top1, .bottoms1, .zapatos1  { border: 1px solid rgb(184, 181, 181);; background-color: rgb(199, 199, 199);
     border-radius: 5px;
     height: 200px;
     width: 200px;
@@ -99,5 +108,10 @@ body {
 width: 20px;
 }
 
-.topcolor { border: solid 1px black;
+
+
+.zapatoscolor, .topcolor, .bottomcolor {border: solid 1px none;
+    
+
 }
+
