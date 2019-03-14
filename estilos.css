@@ -62,7 +62,6 @@ body {
     width:80%;
     display: flex;
     flex-direction: column;
-    
     align-items: center
 }
 .tops, .bottoms, .zapatos { border: 1px solid none  ;
@@ -71,8 +70,6 @@ body {
     display: flex;
     justify-items: center;
 }
-
-
 
 .top2, .zapatos2,.bottoms2    {
      border: 1px solid  gray;
@@ -91,22 +88,20 @@ body {
    height: 200px;
    width: 80%;
    display: flex;
-   justify-content: space-around
-   
+   justify-content: space-around 
 }
 
 .bottomcolor {border: 1px solid none;
     height: 50px;
    width: 250px;
-
 }
 
-
- .top1, .bottoms1, .zapatos1  { border: 1px solid rgb(184, 181, 181);; background-color: rgb(199, 199, 199);
+ .top1, .bottoms1, .zapatos1  { border: 1px solid #2ab7ca; background-color:#78cbd6;
     border-radius: 5px;
     height: 200px;
     width: 200px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
     font-size: 20px;
     display: flex;
    flex-direction: column;
@@ -120,18 +115,82 @@ body {
     display: flex;
    
     justify-content: space-around
-    
 }
 
 .colortop, .colorbottom, .colorzapatos{
     height: 20px;
-width: 20px;
+    width: 20px;
 }
 
 
-
-.zapatoscolor, .topcolor, .bottomcolor {border: solid 1px none;
-    
-
+.zapatoscolor, .topcolor, .bottomcolor {
+    border: solid 1px none;
 }
 
+.cards1, .cards2 { border: solid 1px none;
+width: 1000px;
+height: 300px;
+display: flex;
+justify-content: space-around;
+}
+.marcafoto{ border: solid 2px black;
+    height: 100px;
+    width: 100px;;
+}
+
+.tendencias {border: none solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.h1tendencias, .tucloset {border: 1px none solid;
+    background-color: rgb(206, 222, 236);
+    color: rgb(39, 39, 88);
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+  header {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }  nav {
+    float: left;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #3ead47
+ ;
+  }
+  .contenido {
+    padding-top: 80px;
+  }
+ 
