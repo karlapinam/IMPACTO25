@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="estilos.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <title>...::IMPACTO 25::...</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
                 <section class=“wrapper”>
                   <nav>
                     <ul>
-                      <li><a href=“#”>Inicio</a></li>
-              <li><a href=index.html>Mi Closet</a></li>
+                      <li><a href=inicio.html>Inicio</a></li>
+              <li><a href=micloset.html>Mi Closet</a></li>
               <li><a href=tendencias.html>Tendencias</a></li>
-              <li><a href=“#”>Contacto</a></li>
+             
                     </ul>
                   </nav>
                   </section>
@@ -59,7 +60,7 @@
     </div>
     <div class="tucloset"> <h1 style= "padding-bottom:10px; font-size: 50px">Mi Closet</h1> 
     </div>
-        <p style="padding-top: 10px; font-size: 20px"> Viste con tus marcas favoritas</p>
+        <p style="padding-top: 10px; font-size: 20px"> Prueba tu look de hoy</p>
         <div class= 'tops'>
                 <div class= 'top1' > Tops</div>
                 <div class= 'top2' > 
@@ -67,23 +68,23 @@
                         </span>
                     <div class="topcolor">
                         <p>Seleccciona un color</p>
-                        <input type="radio" name="colortop" id="azultop">
+                        <input type="radio" name="colortop" id="cazul">
                             <label for="azultop">
                                  <img class='colortop'
                               src="https://aspenti.com/wp-content/uploads/2017/06/color-block-2.png"
                                 alt="">
                              </label>
-                         <input type="radio" name="colortop" value= 'blanco'>
+                         <input type="radio" name="colortop" value= 'blanco' id="cblanco">
                              <label for="blancotop">
                                 <img class='colortop'
                                 src="http://worldartsme.com/images/black-and-white-square-clipart-1.jpg"alt="">
                                 </label>
-                        <input type="radio" name="colortop" value= 'negro'>
+                        <input type="radio" name="colortop" value= 'negro' id="cnegro">
                             <label for="negrotop">
                             <img class='colortop'
                             src="https://image.flaticon.com/icons/png/512/18/18141.png"alt="">
                             </label>
-                         <input type="radio" name="colortop" value= 'rojo'>
+                         <input type="radio" name="colortop" value= 'rojo' id="crojo">
                          <label for="rojotop">
                             <img class='colortop'
                             src="http://www.sclance.com/pngs/red-square-png/red_square_png_1156929.png"
@@ -100,31 +101,31 @@
                   <!--<span style="hidden"> <img class= 'basicbottom' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUloe8Y__l_XeTXaxf3XAOiPTPgsmrrMaWicgyGwCenswIw0arMQ" alt="basic bottom"></a></span>
                 -->
 
-                     <span><img style= "size: 10px,10px" class= 'basicbottom' src="/Users/Zhe/Desktop/New_Project_VSC/Impacto_25/imagenes/pantalonazul.png" alt="">
+                     <span><img style= "size:10px,10px" class= 'basicbottom' src="/Users/Zhe/Desktop/New_Project_VSC/Impacto_25/imagenes/pantalonazul.png" alt="">
                     </span>
 
                             
                     <div class="bottomcolor">
                             <p>Seleccciona un color</p>
-                            <span><input type="radio" name="colorbottom" id="azulbottom">
+                            <span><input type="radio" name="colorbottom" id="pazul">
                                 <label for="azulbottom">
                                      <img class='colorbottom'
                                   src="https://aspenti.com/wp-content/uploads/2017/06/color-block-2.png"
                                     alt="">
                                  </label>
     
-                            <input type="radio" name="colorbottom" id="blancobottom">
+                            <input type="radio" name="colorbottom" id="pblanco">
                                  <label for="blancobottom">
                                       <img class='colorbottom'
                                     src="http://worldartsme.com/images/black-and-white-square-clipart-1.jpg"
                                 alt="">
                                     </label>
-                            <input type="radio" name="colorbottom" id="negrobottom">
+                            <input type="radio" name="colorbottom" id="pnegro">
                                 <label for="negrobottom">
                                     <img class='colorbottom'
                                 src="https://image.flaticon.com/icons/png/512/18/18141.png"alt="">
                                 </label>                       
-                            <input type="radio" name="colorbottom" id="rojobottom">
+                            <input type="radio" name="colorbottom" id="projo">
                                 <label for="rojobottom">
                                      <img class='colorbottom'
                                 src="http://www.sclance.com/pngs/red-square-png/red_square_png_1156929.png"alt="">
@@ -135,23 +136,23 @@
         <div class= 'zapatos'>
                 <div class= 'zapatos1' >Zapatos</div>
                 <div class= 'zapatos2' >
-                    <span><img class="basiczapato" src="/Users/Zhe/Desktop/New_Project_VSC/Impacto_25/imagenes/tenisblanco.png" alt=""></span>
+                    <span><img style= "padding-top: 40px" class="basiczapato" src="/Users/Zhe/Desktop/New_Project_VSC/Impacto_25/imagenes/tenisblanco.png" alt=""></span>
                      <div class="zapatoscolor">
                             <p>Seleccciona un color</p>
-                        <span><input type="radio" name="colorzapatos" id="azulzapatos">
+                        <span><input type="radio" name="colorzapatos" id="zazul">
                             <label for="azulzapatos">
                                  <img class='colorzapatos'
                               src="https://aspenti.com/wp-content/uploads/2017/06/color-block-2.png" alt="">
                              </label></span>
-                             <input type="radio" name="colorzapatos" id="blancozapatos">
+                             <input type="radio" name="colorzapatos" id="zblanco">
                              <label for="blancozapatos">
                                   <img class='colorzapatos'src="http://worldartsme.com/images/black-and-white-square-clipart-1.jpg" alt="">
                                 </label>
-                            <input type="radio" name="colorzapatos" id="negrozapatos">
+                            <input type="radio" name="colorzapatos" id="znegro">
                                 <label for="negrozapatos">
                                      <img class='colorzapatos'  src="https://image.flaticon.com/icons/png/512/18/18141.png"alt="">
                             </label>
-                            <input type="radio" name="colorzapatos" id="rojozapatos">
+                            <input type="radio" name="colorzapatos" id="zrojo">
                             <label for="rojozapatos">
                                  <img class='colorzapatos'
                             src="http://www.sclance.com/pngs/red-square-png/red_square_png_1156929.png"
@@ -162,16 +163,96 @@
         </div>
 <br/>
 <br/>
+<div class= 'botonaleatorio'>
+  <!--<button type="buttonres" class="btn btn-info">Resultado</button>-->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+    Resultado
+</button>
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Resultado</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="resultado" class="row">
+    <div class="col-md-12" id="playeras">
+      <img src="imagenes/camisaazul.png" alt="" style="display: none" id="a">
+      <img src="imagenes/camisablanca.png" alt="" style="display: none" id="a2">
+      <img src="imagenes/camisanegra.png" alt="" style="display: none" id="a3">
+      <img src="imagenes/camisaroja.png" alt="" style="display: none" id="a4">
+    </div>
+    <div class="col-md-12" id="pantalones"></div>
+    <img src="imagenes/pantalonazul.png" alt="" style="display: none;" id="b">
+    <img src="imagenes/pantalonblanco.png" alt="" style="display: none" id="b2">
+    <img src="imagenes/pantalonnegro.png" alt="" style="display: none" id="b3">
+    <img src="imagenes/pantalonrojo.png" alt="" style="display: none" id="b4">
+    <div class="col-md-12" id="zapatos">
+      <img src="imagenes/tenisazul.png" alt="" style="display: none" id="c">
+      <img src="imagenes/tenisblanco.png" alt="" style="display: none" id="c2">
+      <img src="imagenes/tenisnegro.png" alt="" style="display: none" id="c3">
+      <img src="imagenes/tenisrojo.png" alt="" style="display: none" id="c4">
+    </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         </div>
+    </div>
+</div>
+</div>
+<!--
         <div class= 'botonaleatorio'>
                 <button type="buttonres" class="btn btn-info">Que tal me veo?</button>
                 <button type="buttonrandom" class="btn btn-info">Estilo Random</button>
 
-        </div>
+        </div>-->
         <br/>
         <br/>
     </div>
 </div>
 
+<button class="open-button" onclick="openForm()">Chatea con un Asesor de Imagen</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Consulta tu estilo con un Asesor</h1>
+
+    <label for="msg"><b>Mensaje</b></label>
+    <textarea placeholder="Escribe tu mensaje" name="msg" required></textarea>
+
+    <button type="submit" class="btn">Enviar</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+  </form>
+</div>
+
+<div class="vacio"></div>
+<div class="piefondo">
+    <div class="piefondo1">
+        </br>
+        <p style="padding-left: 180px; color:rgb(112, 112, 112)">Visita nuestra redes:</p>
+         <div style="padding-left: 200px">
+            <i style='font-size:24px' class='fab'>&#xf09a;</i>
+            <i style='font-size:24px' class='fab'>&#xf099;</i>
+            <i style='font-size:24px' class='fab'>&#xf16d;</i>
+        </div>
+    </div>
+    <div class="piefondo2" style="padding-right: 200px; padding-top:20px">
+        
+        <a href="Inicio.html">♥ Inicio</a> </br>
+        <a href="micloset.html">♥ Mi closet</a></br>
+        <a href="tendencias.html">♥ Tendencias</a></br>
+    </div>
+    
+</div>
+<span style="font-weight: bold">© IMPACTO 25 2019 | Todos los Derechos Reservados |</span>
+</br>
+
+
  <script src="main.js"></script>   
+
 </body>
 </html>
