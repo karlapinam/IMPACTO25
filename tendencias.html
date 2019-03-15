@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="estilos.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <title>...::IMPACTO 25::...</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
         <section class=“wrapper”>
           <nav>
             <ul>
-              <li><a href=“#”>Inicio</a></li>
-              <li><a href=index.html>Mi Closet</a></li>
-              <li><a href=tendencias.html>Tendencias</a></li>
-              <li><a href=“#”>Contacto</a></li>
+                <li><a href=inicio.html>Inicio</a></li>
+                <li><a href=micloset.html>Mi Closet</a></li>
+                <li><a href=tendencias.html>Tendencias</a></li>
+                
             </ul>
           </nav>
           </section>
@@ -137,6 +138,40 @@
          </div>
         </div>
     </div>
+    <button class="open-button" onclick="openForm()">Chatea con un Asesor de Imagen</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Consulta tu estilo con un Asesor</h1>
+
+    <label for="msg"><b>Mensaje</b></label>
+    <textarea placeholder="Escribe tu mensaje" name="msg" required></textarea>
+
+    <button type="submit" class="btn">Enviar</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+  </form>
+</div>
+<div class="vacio"></div>
+<div class="piefondo">
+    <div class="piefondo1">
+        </br>
+        <p style="padding-left: 180px; color:rgb(112, 112, 112)">Visita nuestra redes:</p>
+         <div style="padding-left: 200px">
+            <i style='font-size:24px' class='fab'>&#xf09a;</i>
+            <i style='font-size:24px' class='fab'>&#xf099;</i>
+            <i style='font-size:24px' class='fab'>&#xf16d;</i>
+        </div>
+    </div>
+    <div class="piefondo2" style="padding-right: 200px; padding-top:20px">
+        
+        <a href="Inicio.html">♥ Inicio</a> </br>
+        <a href="micloset.html">♥ Mi closet</a></br>
+        <a href="tendencias.html">♥ Tendencias</a></br>
+    </div>
+    
+</div>
+<span style="font-weight: bold">© IMPACTO 25 2019 | Todos los Derechos Reservados |</span>
+</br>
  <script src="main.js"></script>   
 </body>
 </html>
